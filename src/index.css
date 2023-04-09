@@ -12,7 +12,7 @@ body {
   display: flex;
   overflow: scroll;
 }
-.galerry div {
+.gallery div {
   width: 100%;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -28,7 +28,7 @@ body {
 .gallery::-webkit-scrollbar {
   display: none;
 }
-.galerry-wrap {
+.gallery-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,7 +40,7 @@ body {
   cursor: pointer;
   margin: 40px;
 }
-.galerry div img:hover {
+.gallery div img:hover {
   filter: grayscale(0);
   cursor: pointer;
   transform: scale(1.1);
